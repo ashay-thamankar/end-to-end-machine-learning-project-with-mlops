@@ -6,7 +6,7 @@ STAGE_NAME = "Data Ingestion stage"
 
 class DataIngestionTrainingPipeline:
     def __init__(self):
-        pass
+        pass    
 
     def main(self):
         config = ConfigurationManager()
@@ -25,3 +25,5 @@ if __name__ =="__main__":
     except Exception as e:
         logger.exception(e)
         raise e
+    
+
