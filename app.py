@@ -41,7 +41,7 @@ def predict():
 
             return render_template('results.html', prediction = str(round(predict[0],3)))
         except Exception as e:
-            print(f"The Exception message is: ",e)
+            print(f"The Exception message : ",e)
             return render_template('error.html')
 
 
